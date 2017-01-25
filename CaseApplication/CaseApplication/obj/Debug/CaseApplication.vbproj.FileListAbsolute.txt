@@ -1,0 +1,9 @@
+c:\users\mastermind\documents\visual studio 2015\Projects\CaseApplication\CaseApplication\bin\Debug\CaseApplication.exe.config
+c:\users\mastermind\documents\visual studio 2015\Projects\CaseApplication\CaseApplication\bin\Debug\CaseApplication.exe
+c:\users\mastermind\documents\visual studio 2015\Projects\CaseApplication\CaseApplication\bin\Debug\CaseApplication.pdb
+c:\users\mastermind\documents\visual studio 2015\Projects\CaseApplication\CaseApplication\bin\Debug\CaseApplication.xml
+c:\users\mastermind\documents\visual studio 2015\Projects\CaseApplication\CaseApplication\obj\Debug\CaseApplication.Resources.resources
+c:\users\mastermind\documents\visual studio 2015\Projects\CaseApplication\CaseApplication\obj\Debug\CaseApplication.vbproj.GenerateResource.Cache
+c:\users\mastermind\documents\visual studio 2015\Projects\CaseApplication\CaseApplication\obj\Debug\CaseApplication.exe
+c:\users\mastermind\documents\visual studio 2015\Projects\CaseApplication\CaseApplication\obj\Debug\CaseApplication.xml
+c:\users\mastermind\documents\visual studio 2015\Projects\CaseApplication\CaseApplication\obj\Debug\CaseApplication.pdb
