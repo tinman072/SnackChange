@@ -2,30 +2,49 @@
 
     Sub outputChange(ByVal changeDue As Integer)
 
+        'Dim cd As Integer = changeDue
+
+        'Dim x, y, z As Integer
+
+        'x = Int(cd / 50)
+
+        'If x > 0 Then
+        '    Console.WriteLine("Return " & x & " number of 50 cent coins")
+        'End If
+
+
+        'cd = cd - (x * 50)
+
+
+        'y = Int(cd / 20)
+        'If y > 0 Then
+        '    Console.WriteLine("Return " & y & " number of 20 cent coins")
+        'End If
+
+
+        'cd = cd - (y * 20)
+
+        'z = Int(cd / 10)
+        'Console.WriteLine("Return " & z & " number of 10 cent coins")
+
+        Dim coins() As Integer = {50, 20, 10}
+        Dim i, t As Integer
         Dim cd As Integer = changeDue
 
-        Dim x, y, z As Integer
+        i = 0
+        t = 0
 
-        x = Int(cd / 50)
+        While cd > 0
+            t = Int(cd / coins(i))
 
-        If x > 0 Then
-            Console.WriteLine("Return " & x & " number of 50 cent coins")
-        End If
+            If t > 0 Then
+                Console.WriteLine(coins(i) & " cent coins required: " & t)
+            End If
 
+            cd = cd Mod coins(i)
+            i = i + 1
 
-        cd = cd - (x * 50)
-
-
-        y = Int(cd / 20)
-        If y > 0 Then
-            Console.WriteLine("Return " & y & " number of 20 cent coins")
-        End If
-
-
-        cd = cd - (y * 20)
-
-        z = Int(cd / 10)
-        Console.WriteLine("Return " & z & " number of 10 cent coins")
+        End While
 
     End Sub
 
